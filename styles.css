@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header, .subheader {
+    background-color: darkblue;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+}
